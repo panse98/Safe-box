@@ -7,6 +7,7 @@
 #define GPIO_PORTA_CR_R         (*((volatile uint32_t *)0x40004524))
 #define GPIO_PORTA_AFSEL_R      (*((volatile uint32_t *)0x40004420))
 #define GPIO_PORTA_PCTL_R       (*((volatile uint32_t *)0x4000452C))
+#define GPIO_PORTA_AMSEL_R      (*((volatile uint32_t *)0x40004528))
  //PORTB
 #define GPIO_PORTB_DATA_R       (*((volatile uint32_t *)0x400053FC))
 #define GPIO_PORTB_DIR_R        (*((volatile uint32_t *)0x40005400))
@@ -16,6 +17,7 @@
 #define GPIO_PORTB_CR_R         (*((volatile uint32_t *)0x40005524))
 #define GPIO_PORTB_AFSEL_R      (*((volatile uint32_t *)0x40005420))
 #define GPIO_PORTB_PCTL_R       (*((volatile uint32_t *)0x4000552C))
+#define GPIO_PORTB_AMSEL_R      (*((volatile uint32_t *)0x40005528))
  //PORTC	
 #define GPIO_PORTC_DATA_R       (*((volatile uint32_t *)0x400063FC))
 #define GPIO_PORTC_DIR_R        (*((volatile uint32_t *)0x40006400))
@@ -25,6 +27,7 @@
 #define GPIO_PORTC_CR_R         (*((volatile uint32_t *)0x40006524))
 #define GPIO_PORTC_AFSEL_R      (*((volatile uint32_t *)0x40006420))
 #define GPIO_PORTC_PCTL_R       (*((volatile uint32_t *)0x4000652C))
+#define GPIO_PORTC_AMSEL_R      (*((volatile uint32_t *)0x40006528))
  //PORTD	
 #define GPIO_PORTD_DATA_R       (*((volatile uint32_t *)0x400073FC))
 #define GPIO_PORTD_DIR_R        (*((volatile uint32_t *)0x40007400))
@@ -34,6 +37,7 @@
 #define GPIO_PORTD_CR_R         (*((volatile uint32_t *)0x40007524))
 #define GPIO_PORTD_AFSEL_R      (*((volatile uint32_t *)0x40007420))
 #define GPIO_PORTD_PCTL_R       (*((volatile uint32_t *)0x4000752C))
+#define GPIO_PORTD_AMSEL_R      (*((volatile uint32_t *)0x40007528))
 	//PORTE
 #define GPIO_PORTE_DATA_R       (*((volatile uint32_t *)0x400243FC))
 #define GPIO_PORTE_DIR_R        (*((volatile uint32_t *)0x40024400))
@@ -43,6 +47,7 @@
 #define GPIO_PORTE_CR_R         (*((volatile uint32_t *)0x40024524))
 #define GPIO_PORTE_AFSEL_R      (*((volatile uint32_t *)0x40024420))
 #define GPIO_PORTE_PCTL_R       (*((volatile uint32_t *)0x4002452C))
+#define GPIO_PORTE_AMSEL_R      (*((volatile uint32_t *)0x40024528))
 	//PORTF
 #define GPIO_PORTF_DATA_R       (*((volatile uint32_t *)0x400253FC))
 #define GPIO_PORTF_DIR_R        (*((volatile uint32_t *)0x40025400))
@@ -52,6 +57,7 @@
 #define GPIO_PORTF_CR_R         (*((volatile uint32_t *)0x40025524))
 #define GPIO_PORTF_AFSEL_R      (*((volatile uint32_t *)0x40025420))
 #define GPIO_PORTF_PCTL_R       (*((volatile uint32_t *)0x4002552C))
+#define GPIO_PORTF_AMSEL_R      (*((volatile uint32_t *)0x40025528))
 	//SYSCTL
 #define SYSCTL_RCGCGPIO_R       (*((volatile uint32_t *)0x400FE608))
 #define SYSCTL_PRGPIO_R         (*((volatile uint32_t *)0x400FEA08))
