@@ -43,15 +43,15 @@ void SetPortDir (DIO_PORTS PortName, direction DIR){
 		case PORT_E:
 		{ switch(DIR)
 			{case output:
-			GPIO_PORTE_DIR_R=0xFF;
+			GPIO_PORTE_DIR_R=0x3F;
 			case input:
 			GPIO_PORTE_DIR_R=0x00;}
 		case PORT_F:
 		{switch(DIR)
 			{case output:
-			GPIO_PORTA_DIR_R=0xFF;
+			GPIO_PORTF_DIR_R=0x1F;
 			case input:
-			GPIO_PORTA_DIR_R=0x00;}
+			GPIO_PORTF_DIR_R=0x00;}
 		}
 	}
 
